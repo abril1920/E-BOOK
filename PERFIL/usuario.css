@@ -1,0 +1,87 @@
+*{margin: 0; padding: 0; font-family: monospace;}
+body{
+    background: rgb(217,162,115);
+    background: linear-gradient(90deg, rgba(217,162,115,1) 0%, rgba(217,192,166,1) 36%, rgba(252,204,145,1) 84%);
+    
+}
+
+#screen{
+    margin: 2% 5% 2% 5%;
+    width: 90%;
+    height: 700px;
+    background-color:floralwhite ;
+}
+
+#barra{
+    padding: 20px 2px;
+    display: flex;
+    flex-direction: row;
+    background-color: #BF9D7E;
+}
+
+#volver{    
+    border: 0;
+    color: black;
+    font-size: 15px;
+    margin: 0 50px;
+    padding: 15px 40px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 25px;
+    background-color: #BF9D7E;
+    box-shadow: 0 0 5px #262523;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+#users{
+    display: flex;
+    flex-direction: row;
+}
+
+h3{
+    font-family: monospace;
+    text-align: start;
+}
+
+#warnings{
+    margin: 40px;
+    font-size: 20px;
+    padding: 15px 1px 150px 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: center  ;
+    width: 310px;
+}
+
+#datos{
+    margin: 40px;
+    font-size: 20px;
+    padding: 15px 1px 150px 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: center  ;
+    width: 310px;
+}
+
+
+#perfil{
+    margin: 40px;
+    font-size: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: center  ;
+    width: 310px;
+    align-content: center;
+}
+
+#photo{
+    margin-top: 20px;
+    margin-left: 25px;
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+    padding: 1%;
+    background-color: #595959;
+}
+

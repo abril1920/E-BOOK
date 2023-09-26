@@ -1,0 +1,145 @@
+*{margin: 0;padding: 0; box-sizing: border-box  ;}
+body{
+    background: rgb(217,162,115);
+    background: linear-gradient(90deg, rgba(217,162,115,1) 0%, rgba(217,192,166,1) 36%, rgba(252,204,145,1) 84%);
+    font-family: monospace;
+}
+#barra{
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    background-color: #BF9D7E;
+} 
+#titulo{
+    font-size: 30px;
+    margin-left: 30px;
+    margin-right: 40px;
+    padding: 20px;
+    background-color: #BF9D7E;
+}
+.btn{
+    padding: 10px;
+}
+#a1{    
+    border: 0;
+    color: black;
+    font-size: 22px;
+    margin: 0 50px;
+    padding: 15px 40px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 25px;
+    background-color: #BF9D7E;
+    box-shadow: 0 0 15px #262523;
+    cursor: pointer;
+    border-radius: 25px;
+}
+#a2{    
+    color: black;
+    font-size: 20px;
+    margin: 0 50px;
+    padding: 15px 40px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #BF9D7E;
+    box-shadow: 0 0 15px #262523;
+    cursor: pointer;
+    border-radius: 25px;
+}
+#a3{    
+    color: black;
+    font-size: 20px;
+    margin: 0 50px;
+    padding: 15px 40px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #BF9D7E;
+    box-shadow: 0 0 15px #262523;
+    cursor: pointer;
+    border-radius: 25px;
+}
+#a4{   
+    color: black; 
+    font-size: 20px;
+    margin: 0 50px;
+    padding: 15px 40px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #BF9D7E;
+    box-shadow: 0 0 15px #262523;
+    cursor: pointer;
+    border-radius: 25px;   
+}
+
+#screen{
+    box-shadow: 0 0 8px #262523;
+    margin: 2% 5% 2% 5%;
+    width: 90%;
+    height: 900px;
+    background: rgb(148,159,166);
+    background: linear-gradient(90deg, rgba(148,159,166,1) 0%, rgba(81,86,89,1) 45%, rgba(37,37,38,1) 85%); 
+    overflow: hidden;
+}
+
+#info_libro{
+    display: flex;
+    flex-direction: row;
+    height: 66%;
+}
+
+h1{
+    background-color: #C2E5F2;
+    color: #013440;
+    box-shadow: 0 0 15px rgb(188, 115, 115);
+    border-radius: 20px;
+    font-size: 30px;
+    padding: 25px;
+    margin: 50px 73% 20px 100px;
+    text-align: center;
+    
+}
+
+.ima1{
+    background-color: #262523;
+    width: 21%;
+    height: 85%;
+    margin: 20px 2% 50px 6%;
+    overflow: hidden; 
+}
+#imagen1{
+    position: static    ;
+    width: 100%;
+    height: 100%;
+}
+
+.text1{
+    background-color: #C2E5F2 ;
+    color: #013440  ;
+    border-radius: 25px;
+    box-shadow: 0 0 8px rgb(190, 119, 119);
+    font-size: 17px;
+    width: 40%;
+    height: 85%;
+    margin: 20px 1% 50px 10px;
+    padding: 50px 25px 25px 25px;
+    overflow: hidden;
+}
+
+#pedir_libro{
+    font-size: 20px;
+    padding: 30px;
+    width: 300px;
+    height: 80px;
+    margin: 150px 1% 50px 30px;
+    box-shadow: 0 0 9px rgb(176, 118, 118);
+    background-color: #C2E5F2;
+    border-radius: 50px;
+    text-align: center;
+}
+
+#pd{
+    color: #013440;
+    text-decoration: none;
+    cursor: pointer;
+}
+
